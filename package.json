@@ -1,0 +1,47 @@
+{
+  "name": "create-rensa-app",
+  "version": "1.0.0",
+  "description": "Command-line tool for creating a project with Rensa.",
+  "main": "rensa.js",
+  "bin": {
+    "create-rensa-app": "rensa.js"
+  },
+  "keywords": [
+    "rensa",
+    "project",
+    "setup",
+    "backend",
+    "framework",
+    "node",
+    "nodejs",
+    "web framework",
+    "server",
+    "express alternative",
+    "fast backend",
+    "lightweight framework",
+    "middleware",
+    "http server",
+    "router",
+    "optimized routing",
+    "performance",
+    "scalable",
+    "minimal",
+    "efficient",
+    "modern backend",
+    "web server",
+    "REST API",
+    "api framework",
+    "server-side",
+    "javascript",
+    "node framework"
+  ],
+  "author": "Amartya Chowdhury (aether-flux)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
+    "inquirer": "^12.6.0",
+    "ora": "^8.2.0"
+  }
+}
