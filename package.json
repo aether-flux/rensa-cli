@@ -43,5 +43,17 @@
     "figlet": "^1.8.1",
     "inquirer": "^12.6.0",
     "ora": "^8.2.0"
+  },
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://buymeacoffee.com/aetherflux"
+  },
+  "homepage": "https://rensa.vercel.app/docs/using-the-cli",
+  "bugs": {
+    "url": "https://github.com/aether-flux/rensa-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aether-flux/rensa-cli"
   }
 }
