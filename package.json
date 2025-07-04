@@ -1,6 +1,6 @@
 {
   "name": "create-rensa-app",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Command-line tool for creating a project with Rensa.",
   "main": "rensa.js",
   "bin": {
@@ -48,7 +48,7 @@
     "type": "buymeacoffee",
     "url": "https://buymeacoffee.com/aetherflux"
   },
-  "homepage": "https://rensa.vercel.app/docs/using-the-cli",
+  "homepage": "https://rensa.vercel.app/docs/installation",
   "bugs": {
     "url": "https://github.com/aether-flux/rensa-cli/issues"
   },
