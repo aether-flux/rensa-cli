@@ -44,7 +44,7 @@ async function init () {
     // console.log(`- ${chalk.yellow("npm run dev")}`);
 
     console.log("\n");
-    spinner.succeed(`${chalk.green(`Project ${answers.projectName} created successfully!`)}\n\nRun the following commands to get started:-\n- ${chalk.yellow("npm install")}\n- ${chalk.yellow("npm run dev")}`);
+    spinner.succeed(`${chalk.green(`Project ${answers.projectName} created successfully!`)}\n\nRun the following commands to get started:-\n- ${chalk.yellow(`cd ${answers.projectName}`)}\n- ${chalk.yellow("npm install")}\n- ${chalk.yellow("npm run dev")}`);
   } catch (e) {
     console.log("Error: ", e)
     spinner.fail(chalk.red("Failed to create project."));
