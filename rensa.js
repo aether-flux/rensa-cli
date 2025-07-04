@@ -22,8 +22,8 @@ async function init () {
       type: 'list',
       name: 'template',
       message: chalk.hex('#11CFBC')('Choose a template:'),
-      choices: ['Basic', 'Standard'],
-      default: 'Basic',
+      choices: ['Compose', 'Manual'],
+      default: 'Compose',
     }
   ]);
 
@@ -38,7 +38,13 @@ async function init () {
 
   try {
     createNewProject(answers.projectName, answers.template);
-    spinner.succeed(chalk.green(`Project ${answers.projectName} created successfully!`));
+    // spinner.succeed(chalk.green(`\nProject ${answers.projectName} created successfully!`));
+    // console.log(`\nRun the following commands to get started:-`);
+    // console.log(`- ${chalk.yellow("npm install")}`);
+    // console.log(`- ${chalk.yellow("npm run dev")}`);
+
+    console.log("\n");
+    spinner.succeed(`${chalk.green(`Project ${answers.projectName} created successfully!`)}\n\nRun the following commands to get started:-\n- ${chalk.yellow("npm install")}\n- ${chalk.yellow("npm run dev")}`);
   } catch (e) {
     console.log("Error: ", e)
     spinner.fail(chalk.red("Failed to create project."));
